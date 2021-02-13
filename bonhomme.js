@@ -1,4 +1,4 @@
-const cvs = document.getElementById('snake');
+const cvs = document.getElementById('bonhomme');
 const ctx = cvs.getContext('2d');
 
 // create the unit
@@ -28,11 +28,11 @@ right.src = 'audio/right.mp3';
 left.src = 'audio/left.mp3';
 down.src = 'audio/down.mp3';
 
-// create the snake
+// create the bonhomme
 
-let snake = [];
+let bonhomme = [];
 
-snake[0] = {
+bonhomme[0] = {
     x: 9 * box,
     y: 10 * box,
 };
@@ -48,7 +48,7 @@ let food = {
 
 let score = 0;
 
-//control the snake
+//control the bonhomme
 
 let d;
 
@@ -86,28 +86,28 @@ function collision(head, array) {
 function draw() {
     ctx.drawImage(ground, 0, 0);
 
-    for (let i = 0; i < snake.length; i++) {
+    for (let i = 0; i < bonhomme.length; i++) {
         ctx.fillStyle = i == 0 ? 'green' : 'white';
-        ctx.fillRect(snake[i].x, snake[i].y, box, box);
+        ctx.fillRect(bonhomme[i].x, bonhomme[i].y, box, box);
 
         ctx.strokeStyle = 'red';
-        ctx.strokeRect(snake[i].x, snake[i].y, box, box);
+        ctx.strokeRect(bonhomme[i].x, bonhomme[i].y, box, box);
     }
 
     ctx.drawImage(foodImg, food.x, food.y);
 
     // old head position
-    let snakeX = snake[0].x;
-    let snakeY = snake[0].y;
+    let bonhommeX = bonhomme[0].x;
+    let bonhommeY = bonhomme[0].y;
 
     // which direction
-    if (d == 'LEFT') snakeX -= box;
-    if (d == 'UP') snakeY -= box;
-    if (d == 'RIGHT') snakeX += box;
-    if (d == 'DOWN') snakeY += box;
+    if (d == 'LEFT') bonhommeX -= box;
+    if (d == 'UP') bonhommeY -= box;
+    if (d == 'RIGHT') bonhommeX += box;
+    if (d == 'DOWN') bonhommeY += box;
 
-    // if the snake eats the food
-    if (snakeX == food.x && snakeY == food.y) {
+    // if the bonhomme eats the food
+    if (bonhommeX == food.x && bonhommeY == food.y) {
         score++;
         eat.play();
         food = {
@@ -117,30 +117,30 @@ function draw() {
         // we don't remove the tail
     } else {
         // remove the tail
-        snake.pop();
+        bonhomme.pop();
     }
 
     // add new Head
 
     let newHead = {
-        x: snakeX,
-        y: snakeY,
+        x: bonhommeX,
+        y: bonhommeY,
     };
 
     // game over
 
     if (
-        snakeX < box ||
-        snakeX > 17 * box ||
-        snakeY < 3 * box ||
-        snakeY > 17 * box ||
-        collision(newHead, snake)
+        bonhommeX < box ||
+        bonhommeX > 17 * box ||
+        bonhommeY < 3 * box ||
+        bonhommeY > 17 * box ||
+        collision(newHead, bonhomme)
     ) {
         clearInterval(game);
         dead.play();
     }
 
-    snake.unshift(newHead);
+    bonhomme.unshift(newHead);
 
     ctx.fillStyle = 'white';
     ctx.font = '45px Changa one';
