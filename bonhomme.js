@@ -40,13 +40,13 @@ bonhomme[0] = {
 //adding questions
 const bonhommeQs = [
     {
-        question: 'Who invented JavaScript?',
+        question: 'Quel instrument de musique est tres populaire avec Bonhomme?',
         answers: {
-            a: 'Douglas Crockford',
-            b: 'Sheryl Sandberg',
-            c: 'Brendan Eich',
+            a: 'Une Guitare ',
+            b: 'Une Trompette',
+            c: 'Un Piano',
         },
-        correctAnswer: 'c',
+        correctAnswer: 'b',
     },
     {
         question:
