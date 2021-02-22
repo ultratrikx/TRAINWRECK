@@ -106,34 +106,14 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
         {
-            question: 'Who invented JavaScript?',
-            answers: {
-                a: 'Douglas Crockford',
-                b: 'Sheryl Sandberg',
-                c: 'Brendan Eich',
-            },
-            correctAnswer: 'c',
-        },
-        {
             question:
-                'Which one of these is a JavaScript package manager?',
+                'Quel instrument de musique est tres populaire avec Bonhomme?',
             answers: {
-                a: 'Node.js',
-                b: 'TypeScript',
-                c: 'npm',
+                a: 'Une Guitare ',
+                b: 'Une Trompette',
+                c: 'Un Piano',
             },
-            correctAnswer: 'c',
-        },
-        {
-            question:
-                'Which tool can you use to ensure code quality?',
-            answers: {
-                a: 'Angular',
-                b: 'jQuery',
-                c: 'RequireJS',
-                d: 'ESLint',
-            },
-            correctAnswer: 'd',
+            correctAnswer: 'b',
         },
     ];
 
