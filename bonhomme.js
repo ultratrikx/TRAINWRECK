@@ -87,10 +87,10 @@ function draw() {
     ctx.drawImage(ground, 0, 0);
 
     for (let i = 0; i < bonhomme.length; i++) {
-        ctx.fillStyle = i == 0 ? 'green' : 'white';
+        ctx.fillStyle = i == 0 ? '#348feb' : 'white';
         ctx.fillRect(bonhomme[i].x, bonhomme[i].y, box, box);
 
-        ctx.strokeStyle = 'red';
+        ctx.strokeStyle = '#93aec9';
         ctx.strokeRect(bonhomme[i].x, bonhomme[i].y, box, box);
     }
 

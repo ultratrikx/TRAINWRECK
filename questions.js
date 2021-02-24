@@ -99,21 +99,80 @@
     function showPreviousSlide() {
         showSlide(currentSlide - 1);
     }
-
     // Variables
     const quizContainer = document.getElementById('quiz');
     const resultsContainer = document.getElementById('results');
     const submitButton = document.getElementById('submit');
     const myQuestions = [
         {
-            question:
-                'Quel instrument de musique est tres populaire avec Bonhomme?',
+            question: 'Qui est le CEO de Carnaval?',
             answers: {
-                a: 'Une Guitare ',
+                a: 'Mr P.-Michel Bouchard',
                 b: 'Une Trompette',
-                c: 'Un Piano',
+                c: 'Mr Serge Ferland',
+            },
+            correctAnswer: 'a',
+        },
+
+        {
+            question: 'Quelle couleur est le motif de la chaussette?',
+            answers: {
+                a: 'Bleu',
+                b: 'Orange',
+                c: 'Rouge',
+            },
+            correctAnswer: 'c',
+        },
+
+        {
+            question: 'Quel biscuit dans le beignet?',
+            answers: {
+                a: 'Ritz',
+                b: 'Oreo',
+                c: 'Reeses',
             },
             correctAnswer: 'b',
+        },
+
+        {
+            question: 'Qui est Bonhomme?',
+            answers: {
+                a: 'courge cireuse',
+                b: 'Un humain',
+                c: 'Une mascotte',
+            },
+            correctAnswer: 'c',
+        },
+
+        {
+            question: 'Quel est le Carnaval traditions?',
+            answers: {
+                a: 'Rouge Vetements',
+                b: 'Carnaval Chanson',
+                c: 'Fleche Ceinture',
+                d: 'All of the above',
+            },
+            correctAnswer: 'd',
+        },
+
+        {
+            question: 'Combien est lourd Bonhomme?',
+            answers: {
+                a: '400 livres de neige.',
+                b: '330 livres de neige.',
+                c: '200 livres de neige.',
+            },
+            correctAnswer: 'a',
+        },
+
+        {
+            question: 'Que fait le bonhomme representer?',
+            answers: {
+                a: 'Esperer',
+                b: 'une mascotte',
+                c: 'La joie de vivre des Quebecers.',
+            },
+            correctAnswer: 'c',
         },
     ];
 

@@ -62,3 +62,14 @@ button:hover {
     height: 200px;
     margin-top: 40px;
 }
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}

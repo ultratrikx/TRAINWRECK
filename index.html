@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <h1>Quiz on Important Facts</h1>
+    <script>
+        function myFunction() { 
+            document.getElementById("game").style.display="block"; 
+        }
+    </script>
+    <h1>Bonhomme Parade Jeu</h1>
     <div class="quiz-container">
       <div id="quiz"></div>
     </div>
     <button id="previous">Previous Question</button>
     <button id="next">Next Question</button>
-    <button id="submit">Submit Quiz</button>
-    <div id="results">
+    <button id="submit" onclick="myFunction()">Submit Quiz</button>
+    <div id = "results">
         <script src= "questions.js"></script>
     </div>
     <head>
@@ -19,7 +24,10 @@
             }
         </style>
     </head>
-    <canvas id="bonhomme" width="608" height="608"></canvas>
-    <script src="bonhomme.js"></script>
-    <link rel="stylesheet" href="styles.css"></link>
+    <div id="game" style="display:none;">
+        <canvas id="bonhomme" width="608" height="608"></canvas>
+        <script src="bonhomme.js"></script>
+        <link rel="stylesheet" href="styles.css"></link>
+    </div>
+
 </html>
