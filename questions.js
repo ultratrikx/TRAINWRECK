@@ -113,7 +113,6 @@
             },
             correctAnswer: 'a',
         },
-
         {
             question: 'Quelle couleur est le motif de la chaussette?',
             answers: {
@@ -123,7 +122,6 @@
             },
             correctAnswer: 'c',
         },
-
         {
             question: 'Quel biscuit dans le beignet?',
             answers: {
@@ -133,7 +131,6 @@
             },
             correctAnswer: 'b',
         },
-
         {
             question: 'Qui est Bonhomme?',
             answers: {
@@ -143,7 +140,6 @@
             },
             correctAnswer: 'c',
         },
-
         {
             question: 'Quel est le Carnaval traditions?',
             answers: {
@@ -154,7 +150,6 @@
             },
             correctAnswer: 'd',
         },
-
         {
             question: 'Combien est lourd Bonhomme?',
             answers: {
@@ -164,7 +159,6 @@
             },
             correctAnswer: 'a',
         },
-
         {
             question: 'Que fait le bonhomme representer?',
             answers: {

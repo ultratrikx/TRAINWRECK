@@ -12,6 +12,12 @@ ground.src = 'img/ground.png';
 const foodImg = new Image();
 foodImg.src = 'img/food.png';
 
+// let foodImg = [];
+// for (var i = 0; i < 3; i++) {
+//     foodImg[i] = new Image();
+//     foodImg[i].src = `https://cutt.ly/bonhommeimg${i}`;
+// }
+
 // load audio files
 
 let dead = new Audio();
