@@ -170,7 +170,7 @@
         },
         {
             question:
-                'Quel instrument de musique est très populaire avec Bonhomme?',
+                'Quel instrument de musique est tres populaire avec Bonhomme?',
             answers: {
                 a: 'Une Guitare ',
                 b: 'Une Trompette',
