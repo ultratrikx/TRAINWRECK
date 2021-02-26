@@ -179,7 +179,7 @@
             correctAnswer: 'b',
         },
         {
-            question: 'Quand est-ce que Bonhomme Carnaval est né?',
+            question: 'Quand est-ce que Bonhomme Carnaval est ne?',
             answers: {
                 a: '1849',
                 b: '1955',
@@ -200,7 +200,7 @@
 
         {
             question:
-                "Quels quartier n'est pas seront les hôtes en 2021?",
+                "Quels quartier n'est pas seront les hotes en 2021?",
             answers: {
                 a: 'Fermont',
                 b: 'Limoilou',
@@ -228,9 +228,9 @@
         },
         {
             question:
-                'De quelle culture vient la technique de faire une ceinture fléchée?',
+                'De quelle culture vient la technique de faire une ceinture flechee?',
             answers: {
-                a: 'Les amérindiens',
+                a: 'Les amerindiens',
                 b: 'Les francais',
                 c: 'Les anglais',
             },
