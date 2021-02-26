@@ -236,6 +236,71 @@
             },
             correctAnswer: 'a',
         },
+        {
+            question: 'Citez trois traditions de carnaval?',
+            answers: {
+                a: 'Sculpture sur glace',
+                b: 'canoe sur glace',
+                c: 'le tire',
+                d: 'All of the above',
+            },
+            correctAnswer: 'd',
+        },
+        {
+            question: 'Que signifie bonhomme en anglais?',
+            answers: {
+                a: 'Snow Man',
+                b: 'Good Man',
+                c: 'Bad Man',
+            },
+            correctAnswer: 'b',
+        },
+        {
+            question: 'Quel jour bonhomme est-il né?',
+            answers: {
+                a: 'Février 3',
+                b: 'Janvier 29',
+                c: 'Juillet 17',
+            },
+            correctAnswer: 'b',
+        },
+        {
+            question: 'Que porte le bonhomme? ',
+            answers: {
+                a: 'Un pantalons',
+                b: 'les bottes',
+                c: 'Un flechee et un tuque',
+            },
+            correctAnswer: 'c',
+        },
+        {
+            question: 'De quoi le bonhomme est-il fait?',
+            answers: {
+                a: 'neige',
+                b: 'l’eau',
+                c: 'orange',
+            },
+            correctAnswer: 'a',
+        },
+        {
+            question: 'Quel age a Bonhomme?',
+            answers: {
+                a: '67',
+                b: '66',
+                c: '69',
+            },
+            correctAnswer: 'b',
+        },
+
+        {
+            question: 'Ou se trouve la ville natale de Bonhomme?',
+            answers: {
+                a: 'France',
+                b: 'Quebec City',
+                c: 'Montreal',
+            },
+            correctAnswer: 'b',
+        },
     ];
 
     // Kick things off
