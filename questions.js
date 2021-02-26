@@ -168,6 +168,74 @@
             },
             correctAnswer: 'c',
         },
+        {
+            question:
+                'Quel instrument de musique est très populaire avec Bonhomme?',
+            answers: {
+                a: 'Une Guitare ',
+                b: 'Une Trompette',
+                c: 'Un Piano',
+            },
+            correctAnswer: 'b',
+        },
+        {
+            question: 'Quand est-ce que Bonhomme Carnaval est né?',
+            answers: {
+                a: '1849',
+                b: '1955',
+                c: '2004',
+            },
+            correctAnswer: 'b',
+        },
+
+        {
+            question: 'Quand etait le premier Carnaval?',
+            answers: {
+                a: '1902',
+                b: '1894',
+                c: '1937',
+            },
+            correctAnswer: 'b',
+        },
+
+        {
+            question:
+                "Quels quartier n'est pas seront les hôtes en 2021?",
+            answers: {
+                a: 'Fermont',
+                b: 'Limoilou',
+                c: 'Saint-Roch',
+            },
+            correctAnswer: 'a',
+        },
+        {
+            question: "Quelle activite n'est pas dans le carnaval?",
+            answers: {
+                a: 'Canot en glace',
+                b: 'Hockey',
+                c: 'Natation',
+            },
+            correctAnswer: 'c',
+        },
+        {
+            question: 'Comment grand est Bonhomme?',
+            answers: {
+                a: '7 pieds(Feet)',
+                b: '10 pieds',
+                c: '9 pieds',
+            },
+            correctAnswer: 'a',
+        },
+        {
+            question:
+                'De quelle culture vient la technique de faire une ceinture fléchée?',
+            answers: {
+                a: 'Les amérindiens',
+                b: 'Les francais',
+                c: 'Les anglais',
+            },
+            correctAnswer: 'a',
+        },
     ];
 
     // Kick things off
