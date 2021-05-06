@@ -105,20 +105,22 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
         {
-            question: 'Qui est le CEO de Carnaval?',
+            question:
+                'What happens to your muscles that makes them stronger?',
             answers: {
-                a: 'Mr P.-Michel Bouchard',
-                b: 'Une Trompette',
-                c: 'Mr Serge Ferland',
+                a: 'They swell up',
+                b: 'They get tiny cracks which heal',
+                c: 'Nothing happens, since science isnt cool',
             },
-            correctAnswer: 'a',
+            correctAnswer: 'b',
         },
         {
-            question: 'Quelle couleur est le motif de la chaussette?',
+            question:
+                'What is the next version of Minecraft? (TM Mojang Studios 2009-21)',
             answers: {
-                a: 'Bleu',
-                b: 'Orange',
-                c: 'Rouge',
+                a: 'Version 1.24 "Lots o\' food"',
+                b: 'Version 1.14 "Village and Pillage"',
+                c: 'Version 1.17 "Caves and Cliffs"',
             },
             correctAnswer: 'c',
         },
