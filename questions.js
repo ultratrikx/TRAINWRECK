@@ -129,14 +129,15 @@
             answers: {
                 a: 'Nutrition',
                 b: 'Exercise',
-                c: 'Reeses',
+                c: 'Both',
             },
-            correctAnswer: 'b',
+            correctAnswer: 'c',
         },
         {
-            question: 'Qui est Bonhomme?',
+            question:
+                'What metaphor could you use to explain how muscle grows?',
             answers: {
-                a: 'courge cireuse',
+                a: 'I like trains',
                 b: 'Un humain',
                 c: 'Une mascotte',
             },
