@@ -96,7 +96,7 @@ function draw() {
         ctx.fillStyle = i == 0 ? '#34eb6e' : 'white';
         ctx.fillRect(bonhomme[i].x, bonhomme[i].y, box, box);
 
-        ctx.strokeStyle = '#37ff00';
+        ctx.strokeStyle = '#93aec9';
         ctx.strokeRect(bonhomme[i].x, bonhomme[i].y, box, box);
     }
 
