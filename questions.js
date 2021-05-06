@@ -118,8 +118,8 @@
             question:
                 'What is the next version of Minecraft? (TM Mojang Studios 2009-21)',
             answers: {
-                a: 'Version 1.24 "Lots o\' food"',
-                b: 'Version 1.14 "Village and Pillage"',
+                a: 'Version 1.24 "Lots o\' food',
+                b: 'Version 1.14 "Village and Pillage',
                 c: 'Version 1.17 "Caves and Cliffs"',
             },
             correctAnswer: 'c',
@@ -153,6 +153,110 @@
                 d: 'The evaporation of water',
             },
             correctAnswer: 'a',
+        },
+        {
+            question:
+                'What geothermal Icelandic site has the same name as a 1980 movie?',
+            answers: {
+                a: 'Xanadu',
+                b: 'The Shining',
+                c: 'Heaven’s Gate',
+                d: 'The Blue Lagoon',
+            },
+            correctAnswer: 'd',
+        },
+        {
+            question:
+                'In Swedish, a skvader is a rabbit with what unusual feature?',
+            answers: {
+                a: 'Wings',
+                b: 'Glasses',
+                c: 'Leotard',
+                d: 'Giant Hands',
+            },
+            correctAnswer: 'a',
+        },
+        {
+            question:
+                'So far, which has been the only FIFA World Cup host not to make it out of the group stage?',
+            answers: {
+                a: 'Sweden',
+                b: 'Mexico',
+                c: 'United States',
+                d: 'South Africa',
+            },
+            correctAnswer: 'd',
+        },
+        {
+            question:
+                'Worldwide, which is the most commonly transplanted organ from living donors?',
+            answers: {
+                a: 'The kidney',
+                b: 'The colon',
+                c: 'The stomach',
+            },
+            correctAnswer: 'a',
+        },
+        {
+            question:
+                'How many calories does the average 178lb human being burn while playing Fortnite for 6 hours',
+            answers: {
+                a: '1065',
+                b: '689',
+                c: '510',
+                d: '368',
+            },
+            correctAnswer: 'c',
+        },
+        {
+            question: '',
+            answers: {
+                a: 'They swell up',
+                b: 'They get tiny cracks which heal',
+                c: 'Nothing happens, since science isnt cool',
+            },
+            correctAnswer: 'b',
+        },
+        {
+            question:
+                "How many times has France changed it's constitution after 1800",
+            answers: {
+                a: '4',
+                b: '11',
+                c: '3',
+            },
+            correctAnswer: 'b',
+        },
+        {
+            question:
+                'How many blue stripes are there on the U.S. flag?',
+            answers: {
+                a: '13',
+                b: '50',
+                c: '4',
+                d: 'None of the above',
+            },
+            correctAnswer: 'd',
+        },
+        {
+            question: "What is Raghav's favorite thing?",
+            answers: {
+                a: 'Bananas',
+                b:
+                    'Intensly Automated Constructions that Operate Through the Use of Moving Electrons, or IACOTUME (or as you like to call them, "Computers")',
+                c: 'Trains',
+            },
+            correctAnswer: 'c',
+        },
+        {
+            question: "What is Rohanth's favourite kind of apple?",
+            answers: {
+                a: 'Red Delicious',
+                b: 'Granny Smith',
+                c: 'Fuji',
+                d: 'Honeycrisp',
+            },
+            correctAnswer: 'c',
         },
     ];
 
