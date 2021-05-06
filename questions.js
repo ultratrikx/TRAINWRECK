@@ -106,7 +106,7 @@
     const myQuestions = [
         {
             question:
-                'What happens to your muscles that makes them stronger?',
+                'What happens to your muscles that makes them grow?',
             answers: {
                 a: 'They swell up',
                 b: 'They get tiny cracks which heal',
@@ -135,23 +135,24 @@
         },
         {
             question:
-                'What metaphor could you use to explain how muscle grows?',
+                'What metaphor/simile could you use to explain how muscle grows?',
             answers: {
-                a: 'I like trains',
-                b: 'Un humain',
-                c: 'Une mascotte',
+                a: 'Muscles are amazing',
+                b:
+                    'The reward in growing muscles is like the reward in winning the lottery',
+                c: 'Muscles are basically goo',
             },
-            correctAnswer: 'c',
+            correctAnswer: 'b',
         },
         {
-            question: 'Quel est le Carnaval traditions?',
+            question: 'What is Conduction',
             answers: {
-                a: 'Rouge Vetements',
-                b: 'Carnaval Chanson',
-                c: 'Fleche Ceinture',
-                d: 'All of the above',
+                a: 'The transfer of heat through a solid',
+                b: 'The transfer of heat through a liquid/gas',
+                c: 'The transfer of heat through waves of energy',
+                d: 'The evaporation of water',
             },
-            correctAnswer: 'd',
+            correctAnswer: 'a',
         },
     ];
 

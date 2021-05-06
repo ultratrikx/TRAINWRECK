@@ -93,10 +93,10 @@ function draw() {
     ctx.drawImage(ground, 0, 0);
 
     for (let i = 0; i < bonhomme.length; i++) {
-        ctx.fillStyle = i == 0 ? '#348feb' : 'white';
+        ctx.fillStyle = i == 0 ? '#34eb6e' : 'white';
         ctx.fillRect(bonhomme[i].x, bonhomme[i].y, box, box);
 
-        ctx.strokeStyle = '#93aec9';
+        ctx.strokeStyle = '#37ff00';
         ctx.strokeRect(bonhomme[i].x, bonhomme[i].y, box, box);
     }
 
