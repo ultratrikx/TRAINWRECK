@@ -209,11 +209,12 @@
             correctAnswer: 'c',
         },
         {
-            question: '',
+            question:
+                "Whats Mr. Riemer's favourite smoothie flavour?",
             answers: {
-                a: 'They swell up',
-                b: 'They get tiny cracks which heal',
-                c: 'Nothing happens, since science isnt cool',
+                a: 'Blueberry',
+                b: 'Strawberry Banana',
+                c: 'Mango Banana',
             },
             correctAnswer: 'b',
         },
